@@ -1,0 +1,113 @@
+<html>
+    <head>
+        <title> User login.. </title>
+        <style>
+            
+            body {
+                background-color: #DA3D63;
+                 }
+            .property{
+                font-family: verdana;
+                font-size: 20px;  
+                color: red;
+            }
+            
+            .div1{
+                width: 700px;
+                height: 450px;
+                background-color:#52524E;
+                border: none;
+                position: relative;
+                top: 120px;
+                left: 400px;            
+            }
+            
+            .div2{
+                width: 250px;
+                height: 250px;
+                border: none;
+                position: relative;
+                float: left;
+                top: 40px;
+                left: 50px;  
+                
+                /*background-color:#D1D25A;*/
+            }
+            
+            .div3{
+                width: 300px;
+                height: 250px;
+                border: none;
+                position: relative;
+                float: left;
+                top: 40px;
+                left: 70px;        
+                
+                /*background-color:#D1D25A;*/
+            }
+            
+                        
+            .inputbox {
+                width: 250px;
+                height: 40px;
+                radius: 10px;
+                font-family: verdana;
+                font-size: 15px;  
+                margin: 40px 0px 0px 50px;
+                padding: 10px;
+                
+            }
+            
+            .button1 {
+                    background-color: #DA3D63; /* Green */
+                    border: none;
+                    color: white;
+                    padding: 10px 32px;
+                    text-align: center;
+                    text-decoration: none;
+                    display: inline-block;
+                    font-size: 16px;
+                    margin: 30px 0px 0px 110px;
+                    }
+                    
+            .button2 {
+                    background-color: #DA3D63; /* Green */
+                    border: none;
+                    color: white;
+                    padding: 10px 250px;
+                    text-align: center;
+                    text-decoration: none;
+                    display: inline-block;
+                    font-size: 16px;
+                    margin: 86px 0px 0px 78px;
+                    }
+                    
+                    
+                    .text {
+                        color: white;
+                        margin: 15px 0px 0px 45px;
+                    }
+                        
+        </style>
+        
+        
+    </head>
+    <body>
+        <div class="div1">
+            <div class="div2"><img src="E:\Applications\Net Beans\Programme files\Java Project\User.jfif" alt="user">
+                <p class="text">&nbsp;&nbsp; &nbsp;&nbsp;Faculty Login</p>
+            </div>
+            <div class="div3">
+            <form action="fLogin" method="POST">
+                <input class="inputbox"  type="text" name="user1" placeholder="Username"></br>
+                <input class="inputbox" type="password" name="pass1" placeholder="Password">
+                <input class="button1" type="submit" value="Submit">
+                
+            </form>
+            </div>
+             <a href="fsignup.html"><button class="button2">Sign-up</button></a> 
+            
+        </div>
+    </body>
+        
+</html>
